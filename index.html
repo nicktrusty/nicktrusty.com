@@ -74,6 +74,8 @@ h2 { font-family: var(--mono); font-weight: 500; font-size: .78rem; text-transfo
 .figs { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .75rem; }
 .fig { font-family: var(--mono); font-size: .8rem; font-variant-numeric: tabular-nums; background: var(--surface); padding: .25rem .6rem; border-radius: 3px; }
 .fig b { color: var(--accent); font-weight: 500; }
+a.fig { color: var(--accent); text-decoration: none; }
+a.fig:hover { text-decoration: underline; }
 
 .principles { display: grid; gap: 1.25rem; }
 .principles div { display: grid; gap: .2rem; }
@@ -106,12 +108,24 @@ footer { font-family: var(--mono); font-size: .75rem; color: var(--muted); }
     </div>
     <h1>Nick Trusty</h1>
     <p class="thesis">I build the systems that turn a mission-driven product into revenue that renews.</p>
-    <p class="lede">Twenty years across customer success, revenue operations, sales, and ed-tech, as a founder, an agency partner, and a senior leader, including leading AI enablement across sales and customer success. I'm looking for a senior role in customer success, revenue operations, or go-to-market strategy at a company that cares what its product does for people.</p>
+    <p class="lede">Twenty years across customer success, revenue operations, sales, and ed-tech, as a founder, an agency partner, and a senior leader, including leading AI enablement across sales and customer success. I'm looking for a senior role in customer success, revenue operations, or go-to-market strategy at a company that cares what its product does for people. I also take on fractional engagements through <a href="https://scoutadvisory.org" target="_blank" rel="noopener">Scout Advisory</a>.</p>
   </header>
 
   <section>
     <h2>Track record</h2>
     <div class="ledger">
+      <div class="row">
+        <div>
+          <div class="org">Scout Advisory</div>
+          <div class="role">Managing Partner<br><span class="yrs">2026 - Present</span></div>
+        </div>
+        <div>
+          <p>My independent practice offering fractional customer success leadership to B2B SaaS and EdTech teams: customer health frameworks, onboarding and adoption playbooks, renewal forecasting, and the signals that show which accounts are ready to expand. Renewal is the floor; upsell is the plan.</p>
+          <div class="figs">
+            <a class="fig" href="https://scoutadvisory.org" target="_blank" rel="noopener">scoutadvisory.org</a>
+          </div>
+        </div>
+      </div>
       <div class="row">
         <div>
           <div class="org">Learning Ally</div>
@@ -175,7 +189,7 @@ footer { font-family: var(--mono); font-size: .75rem; color: var(--muted); }
 
   <section class="contact">
     <h2>Get in touch</h2>
-    <p>If you're hiring for a revenue, customer, or go-to-market leader, or need someone to steady a customer success function for a few months, I'd like to hear from you.</p>
+    <p>If you're hiring for a revenue, customer, or go-to-market leader, or need someone to steady a customer success function for a few months through Scout Advisory, I'd like to hear from you.</p>
     <div class="email">
       <code id="email">nick.trusty@gmail.com</code>
       <button id="copy" type="button">Copy email</button>
